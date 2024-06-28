@@ -1,0 +1,64 @@
+main:
+  - name: Home
+    url: /
+    weight: 1
+  - name: Solutions
+    url: /projects/
+    weight: 2
+    child:
+      - name: "Financial Engineering"
+        description: "Fast and Accurate"
+        url: /projects/project-2/
+      - name: "Computing on Clouds"
+        description: "Cost Optimized"
+        url: /projects/project-1/
+      - name: "System Development"
+        description: "Right Software Hardware"
+        url: /projects/project-3/
+      - name: "Data Quality Management"
+        description: "Relevant and Adequate"
+        url: /projects/project-4/
+  - name: Blog
+    url: /blog/
+    weight: 2
+  - name: About
+    url: /about/
+    weight: 3
+  - name: Contact
+    url: /contact/
+    weight: 4
+  
+
+footer_primary:
+  - name: "Financial Engineering"
+    url: /projects/project-2/
+  - name: "Computing on Clouds"
+    url: /projects/project-1/
+  - name: "System Development"
+    url: /projects/project-3/
+  - name: "Data Quality Management"
+    url: /projects/project-4/
+
+footer_secondary:
+  - name: Blog
+    url: /blog/
+    weight: 2
+  - name: About
+    url: /about/
+    weight: 3
+  - name: Contact
+    url: /contact/
+    weight: 4
+  - name: Privacy Policy
+    url: /privacy-policy/
+    weight: 1
+
+footer_tertiary:
+  - name: Privacy Policy
+    url: /privacy-policy/
+    weight: 1
+
+bottom:
+  - name: Privacy Policy
+    url: /privacy-policy/
+    weight: 3
